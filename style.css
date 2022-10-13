@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #10D197;
+}
+.wrapper{
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: rgba(35, 216, 216, 0.342);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgba(14, 14, 14, 0.436);
+}
+span{
+    display: block;
+    text-align: center;
+    font-size:50px ;
+}
+p{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 25px;
+    margin: 30px 0;
+    opacity: 0;
+    text-align: center;
+    font-family: 'Poppins','sans-serif';
+}
+.fade{
+    opacity: 1;
+    transition:opacity 1.5s ;
+}
+button{
+    display: block;
+    border: none;
+    background-color: rgba(34, 228, 138, 0.847);
+    font-size: 18px;
+    font-family: 'Lato';
+    color: #171721;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+button:hover{
+    box-shadow: 20px 20px 40px rgba(14, 14, 14, 0.436);
+}
