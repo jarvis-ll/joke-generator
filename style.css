@@ -5,18 +5,22 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #10D197;
+    min-height: 100vh;
+    background-image:linear-gradient(to right top, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8));
 }
 .wrapper{
     width: 80vmin;
     padding: 50px 40px;
-    background-color: rgba(35, 216, 216, 0.342);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    border-radius: 5px;
-    box-shadow: 20px 20px 40px rgba(14, 14, 14, 0.436);
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 span{
     display: block;
@@ -41,7 +45,7 @@ p{
 button{
     display: block;
     border: none;
-    background-color: rgba(34, 228, 138, 0.847);
+    background:white;
     font-size: 18px;
     font-family: 'Lato';
     color: #171721;
@@ -49,6 +53,8 @@ button{
     padding: 12px 25px;
     margin: 0 auto;
     border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
 }
 button:hover{
     box-shadow: 20px 20px 40px rgba(14, 14, 14, 0.436);
